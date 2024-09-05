@@ -1,0 +1,43 @@
+.popular .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.popular .container .txt,
+.popular .container .images {
+    width: 49%;
+}
+
+.popular .container .images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular .container .images img {
+    width: 49%;
+    height: 368px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.popular .container .images img:last-child {
+    transform: translateY(-25px);
+}
+
+.popular .container.reverse {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width : 992px) {
+    .popular .container {
+        flex-direction: column-reverse !important;
+        gap: 40px;
+    }
+
+    .popular .container .txt,
+    .popular .container .images {
+        width: 100%;
+    }
+}

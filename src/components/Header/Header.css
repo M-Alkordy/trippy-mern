@@ -1,0 +1,21 @@
+.headerSection h1 ,
+.headerSection .desc{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.headerSection h1{
+    font-size: 3rem;
+}
+
+.headerSection .desc{
+    margin-bottom: 2.5rem;
+}
+
+
+@media screen and (max-width : 992px) {
+
+    .headerSection h1{
+        font-size: 2rem;
+    }
+}

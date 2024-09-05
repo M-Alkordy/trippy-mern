@@ -1,0 +1,14 @@
+.popular{
+    margin: 4rem 6rem;
+}
+
+
+@media screen and (max-width : 992px) {
+    .popular{
+        margin: 4rem 3rem;
+    }
+
+    .popular h1{
+        font-size: 2rem;
+    }
+}

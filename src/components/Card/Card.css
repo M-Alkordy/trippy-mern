@@ -1,0 +1,15 @@
+.recent .card {
+    width: 342px;
+    min-height: 398px;
+    padding: 1rem .8rem;
+    border-radius: 7px;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, .11);
+    cursor: pointer;
+}
+
+.recent .card img{
+    width: 100%;
+    height: 211px;
+    border-radius: 7px;
+    object-fit: cover;
+}
