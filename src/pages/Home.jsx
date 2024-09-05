@@ -18,6 +18,7 @@ const Home = () => {
             <div >
                 <Hero test={hero} img="/assets/img/12257c5311e1cae5638aad.jpg" title="Your Journey Your Story" desc="Choose Your Favourite Destination." btn="Travel Now" />
             </div>
+            <h1>hello world</h1>
             <div ref={popular}>
                 <PopularDestinations />
             </div>
